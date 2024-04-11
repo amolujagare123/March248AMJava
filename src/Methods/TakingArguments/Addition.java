@@ -1,4 +1,4 @@
-package InheritanceDemo.Polymorphism;
+package Methods.TakingArguments;
 
 public class Addition {
 
