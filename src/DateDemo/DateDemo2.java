@@ -6,9 +6,12 @@ import java.util.Date;
 
 public class DateDemo2 {
 
-    public static void main(String[] args) throws ParseException {
+    public static void main(String[] args) throws ParseException, InterruptedException {
         String dateStr = "12/03/2023";
         System.out.println("Given Date"+dateStr);
+
+
+     //   Thread.sleep(9000);
 
         SimpleDateFormat sd = new SimpleDateFormat("dd/MM/yyyy");
         Date date = sd.parse(dateStr);

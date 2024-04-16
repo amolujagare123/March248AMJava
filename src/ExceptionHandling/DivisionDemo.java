@@ -14,6 +14,13 @@ public class DivisionDemo {
         catch (Exception e)
         {
             System.out.println("inside catch");
+            System.out.println(e);
+            System.out.println(e.getMessage());
+            System.out.println(e.getClass());
+            e.printStackTrace();
+        }
+        finally {
+            System.out.println("inside finally");
         }
 
 
